@@ -50,12 +50,16 @@ jobs:
          run: |
               cd  $GITHUB_WORKSPACE/ErfanGSIs
               sudo bash ./url2GSI.sh -c --$BUILD_TYPE $ROM_URL $ROM_NAME
-       
-       - name: Zip GSI  
+              
+       - name: Install 7zip 
+         run: |
+               sudo apt install p7zip -y
+              
+       - name: 7Zip GSI  
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               mkdir final
-              zip -r final/GSI.zip ./*
+              7z a final/GSI.7z ./*
        
        - name: Upload GSI to WeTransfer
          run: |
