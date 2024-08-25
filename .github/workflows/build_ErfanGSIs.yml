@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://116-142-255-144.pd1.cjjd19.com:30443/download-cdn.cjjd19.com/123-431/932eec35/1824919010-0/932eec35a950798ec176975e427045af/c-m24?v=5&t=1724649552&s=1724649552797274aad5815711fbd91c5b389a9c28&r=59B15S&bzc=2&bzs=313832343931393031303a37373335333631363a343833323735383235343a31383132323630303232&filename=PD1950_A_7.9.1-update-full_1675345264.zip&x-mf-biz-cid=3ee74353-72b1-4262-bc43-b3e87ecff867-c4937c&auto_redirect=0&cache_type=1&xmfcid=4821c099-235b-42d3-b725-03210aff2515-0-9eed82220
+  ROM_NAME: Generic
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
